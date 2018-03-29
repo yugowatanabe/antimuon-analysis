@@ -15,6 +15,11 @@ included in the repository (instead, I include example outputs of the program fr
 - If some of the options for the script are confusing, refer to report.pdf to better understand the fundamentals of the analysis 
 process.
 
+FILES:
+- 370hrsTinMon.txt is 370 hours of data WITH the copper target WITH a magnetic field applied.
+- 268hrsTinMoff.txt is 268 hours of data WITH the copper target WITHOUT a magnetic field applied.
+- 172hrsTout.txt is 172 hours of data WITHOUT the copper target (and therefore no magnetic field). Used for background subtraction.
+
 EXAMPLE:
 Run:
      python muplusAnalysis.py 370hrsTinMon.txt --bgsub=172hrsTout.txt 
